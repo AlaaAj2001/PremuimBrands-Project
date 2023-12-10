@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.premiumbrands.SignInController">
+   <children>
+      <VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="480.0" styleClass="purple-panel" stylesheets="@Style.css">
+         <children>
+            <HBox prefHeight="41.0" prefWidth="480.0">
+               <children>
+                  <ImageView fitHeight="42.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Picture1.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label alignment="CENTER" prefHeight="42.0" prefWidth="84.0" text="Login" textAlignment="CENTER" textFill="#f6f3f7">
+                     <font>
+                        <Font name="Century Gothic Italic" size="26.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="42.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Picture3.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="Emailtext" prefHeight="26.0" prefWidth="300.0" promptText="Email" styleClass="tf_box">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Century Gothic" size="12.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets left="15.0" right="15.0" top="15.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="42.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Picture2.png" />
+                     </image>
+                  </ImageView>
+                  <PasswordField fx:id="Passtext" prefHeight="26.0" prefWidth="300.0" promptText="Password" styleClass="tf_box" stylesheets="@Style.css">
+                     <font>
+                        <Font name="Century Gothic" size="12.0" />
+                     </font></PasswordField>
+               </children>
+               <VBox.margin>
+                  <Insets left="15.0" right="15.0" top="20.0" />
+               </VBox.margin>
+            </HBox>
+            <Button fx:id="GoToStart_BTN" mnemonicParsing="false" onAction="#SIGN_IN" prefHeight="26.0" prefWidth="380.0" styleClass="purple-btn" text="Sign In" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets left="50.0" right="15.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Century Gothic" size="12.0" />
+               </font>
+            </Button>
+            <Text fx:id="lable" fill="#eac1c1" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="170.13666343688965">
+               <VBox.margin>
+                  <Insets left="150.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Century Gothic" size="11.0" />
+               </font>
+            </Text>
+            <Button fx:id="returntoSignUp" mnemonicParsing="false" onAction="#returntoSignUp" prefHeight="26.0" prefWidth="380.0" styleClass="return" stylesheets="@Style.css" text="Don't have an account ? Sign Up" textAlignment="CENTER" textFill="#fcfbfb">
+               <VBox.margin>
+                  <Insets left="50.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Century Gothic" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

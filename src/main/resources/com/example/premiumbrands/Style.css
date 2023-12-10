@@ -1,0 +1,108 @@
+.parent
+{
+  -fx-background-color: transparent;
+}
+.pane
+{
+  -fx-background-color: #edc5c5;
+}
+.trans-btn-white-border1
+{
+  -fx-background-color: transparent;
+  -fx-background-radius: 5px;
+  -fx-border-color: #27285c;
+  -fx-border-radius: 5px;
+  -fx-border-width: 1px;
+  -fx-text-fill: white;
+}
+.pane3
+{
+  -fx-background-color: #27285c;
+}
+.purple-panel
+{
+ -fx-background-color: #51548e;
+}
+.return
+{
+-fx-background-color: transparent;
+}
+.tf_box
+{
+  -fx-background-color: transparent;
+  -fx-border-color: #DEDEE4;
+  -fx-border-width:  0px 0px 1px 0px;
+  -fx-text-fill: white;
+}
+.tf
+{
+  -fx-background-color: transparent;
+}
+.purple-btn
+{
+  -fx-background-color: #2F0253;
+  -fx-background-radius: 5px;
+  -fx-text-fill: white;
+}
+.shopping
+{
+  -fx-background-color: #a53262;
+}
+.value
+{
+-fx-background-color: #b5ccf1;
+-fx-border-color: #292664;
+}
+
+.sendorder
+{
+-fx-background-color: #ebd6e9;
+-fx-border-color: #292664;
+}
+.start_pane
+{
+-fx-background-color: #fdedfb;
+}
+
+.shp_but
+{
+-fx-background-color: transparent;
+}
+.TYPE
+{
+-fx-background-color: #535694;
+}
+.pane2
+{
+-fx-background-color: transparent;
+}
+.personal
+{
+-fx-background-color: #ffffff;
+}
+.account
+{
+-fx-background-color: #0b386f
+}
+.bink-btn
+{
+  -fx-background-color: #edc5c5;
+  -fx-background-radius: 5px;
+  -fx-text-fill: #0b386f;
+}
+.size-btn
+{
+  -fx-text-fill: #0b386f;
+}
+.admin-btn
+{
+  -fx-background-color: #7b00d9;
+  -fx-background-radius: 100px;
+  -fx-text-fill: white;
+}
+.admin-table
+{
+  -fx-background-color: white ;
+
+  -fx-text-fill: #0b386f;
+ }

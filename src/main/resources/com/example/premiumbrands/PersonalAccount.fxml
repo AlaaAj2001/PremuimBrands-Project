@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="show" onMouseReleased="#show" prefHeight="546.0" prefWidth="440.0" styleClass="personal" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.premiumbrands.AccountController">
+   <children>
+      <VBox prefHeight="382.0" prefWidth="440.0" styleClass="pane3" stylesheets="@Style.css">
+         <children>
+            <HBox alignment="CENTER" prefHeight="41.0" prefWidth="480.0">
+               <children>
+                  <Button fx:id="returntostart" mnemonicParsing="false" onAction="#returntostart" prefHeight="53.0" prefWidth="48.0" styleClass="shp_but" stylesheets="@Style.css">
+                     <graphic>
+                        <ImageView fitHeight="78.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Picture17.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label prefHeight="42.0" prefWidth="434.0" text="Your Account" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Italic" size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="42.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Picture8.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <TextField fx:id="fname" prefHeight="26.0" prefWidth="160.0" promptText="First Name" styleClass="tf_box">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="lname" prefHeight="26.0" prefWidth="160.0" promptText="Last Name" styleClass="tf_box">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets left="30.0" top="20.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="42.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Picture10.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="pn" prefHeight="26.0" prefWidth="334.0" promptText="Phone Number" styleClass="tf_box">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets left="30.0" top="20.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="42.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Picture3.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="email" prefHeight="26.0" prefWidth="334.0" promptText="Email" styleClass="tf_box">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets left="30.0" top="20.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="42.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Picture2.png" />
+                     </image>
+                  </ImageView>
+                  <PasswordField fx:id="pass" prefHeight="26.0" prefWidth="334.0" promptText="Password" styleClass="tf_box" stylesheets="@Style.css" />
+               </children>
+               <VBox.margin>
+                  <Insets left="30.0" top="20.0" />
+               </VBox.margin>
+            </HBox>
+            <Button fx:id="save" mnemonicParsing="false" onAction="#save" prefHeight="26.0" prefWidth="380.0" styleClass="bink-btn" stylesheets="@Style.css" text="Save Information" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets left="30.0" top="20.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="120.0" layoutY="389.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@24ba2e8167291c3b404c0a9dc86871a7.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
